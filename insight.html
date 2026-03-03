@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StokPintar - AI Insight Detail</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#137fec",
+              "background-light": "#f6f7f8",
+              "background-dark": "#101922",
+            },
+            fontFamily: {
+              "display": ["Manrope"]
+            },
+            borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<!-- Header / Top Bar -->
+<div class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+<div class="flex items-center p-4 justify-between max-w-md mx-auto">
+<div class="flex items-center gap-3">
+<button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-slate-700 dark:text-slate-300">arrow_back</span>
+</button>
+<h1 class="text-lg font-bold tracking-tight">AI Insights</h1>
+</div>
+<button class="flex h-10 w-10 items-center justify-center rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-slate-700 dark:text-slate-300">more_vert</span>
+</button>
+</div>
+</div>
+<main class="max-w-md mx-auto pb-24">
+<!-- Hero Insight Card -->
+<div class="p-4">
+<div class="relative overflow-hidden rounded-xl bg-primary p-6 text-white shadow-lg">
+<div class="relative z-10">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-sm">auto_awesome</span>
+<span class="text-xs font-semibold uppercase tracking-wider opacity-90">Prediction Active</span>
+</div>
+<h2 class="text-2xl font-extrabold leading-tight mb-2">Promo Tanggal Kembar (11.11)</h2>
+<p class="text-primary-foreground/80 text-sm leading-relaxed mb-4">
+                        AI predicts a 45% surge in orders. Your current stock levels for 'Apparel' may be insufficient for the projected demand.
+                    </p>
+<div class="flex items-center gap-4">
+<div class="flex flex-col">
+<span class="text-[10px] uppercase opacity-70">Confidence Score</span>
+<span class="text-lg font-bold">94%</span>
+</div>
+<div class="h-8 w-[1px] bg-white/20"></div>
+<div class="flex flex-col">
+<span class="text-[10px] uppercase opacity-70">Estimated Sales</span>
+<span class="text-lg font-bold">~1,250 units</span>
+</div>
+</div>
+</div>
+<!-- Abstract background pattern -->
+<div class="absolute top-0 right-0 -mr-8 -mt-8 h-32 w-32 rounded-full bg-white/10 blur-2xl" data-alt="Abstract white light glow on primary background"></div>
+</div>
+</div>
+<!-- Actionable Recommendations -->
+<div class="px-4 mb-6">
+<h3 class="text-sm font-bold uppercase tracking-widest text-slate-500 dark:text-slate-400 mb-4 px-1">Actionable Instructions</h3>
+<div class="space-y-3">
+<!-- Item 1 -->
+<div class="flex items-center gap-4 bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">inventory_2</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold leading-tight">Siapkan 500 unit Kaos Hitam</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Inventory level critical for 'Best Seller' list</p>
+</div>
+<button class="h-8 w-8 rounded-full border border-primary/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+<!-- Item 2 -->
+<div class="flex items-center gap-4 bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-amber-500/10 text-amber-500">
+<span class="material-symbols-outlined">local_shipping</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold leading-tight">Hubungi Vendor 'Lokal Jaya'</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Request early delivery by Nov 5th</p>
+</div>
+<button class="h-8 w-8 rounded-full border border-amber-500/20 flex items-center justify-center text-amber-500">
+<span class="material-symbols-outlined text-sm">call</span>
+</button>
+</div>
+<!-- Item 3 -->
+<div class="flex items-center gap-4 bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-green-500/10 text-green-500">
+<span class="material-symbols-outlined">sell</span>
+</div>
+<div class="flex-1">
+<p class="text-sm font-bold leading-tight">Bundle: Kaos + Topi</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Maximize AOV during high traffic hours</p>
+</div>
+<button class="h-8 w-8 rounded-full border border-green-500/20 flex items-center justify-center text-green-500">
+<span class="material-symbols-outlined text-sm">bolt</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Burn Rate Analysis Section -->
+<div class="px-4">
+<div class="rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-5 shadow-sm">
+<div class="flex items-center justify-between mb-6">
+<div>
+<h3 class="text-lg font-bold">Burn Rate Analysis</h3>
+<p class="text-xs text-slate-500 dark:text-slate-400">Velocity of stock consumption</p>
+</div>
+<span class="material-symbols-outlined text-primary">query_stats</span>
+</div>
+<div class="grid grid-cols-2 gap-4 mb-6">
+<div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800">
+<p class="text-[10px] uppercase font-bold text-slate-400 mb-1">Current Velocity</p>
+<p class="text-xl font-extrabold text-primary">12.5 <span class="text-xs font-normal text-slate-500">pcs/day</span></p>
+</div>
+<div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-800">
+<p class="text-[10px] uppercase font-bold text-slate-400 mb-1">Days of Supply</p>
+<p class="text-xl font-extrabold text-red-500">8 <span class="text-xs font-normal text-slate-500">days left</span></p>
+</div>
+</div>
+<!-- Mini Chart Representation -->
+<div class="space-y-4">
+<div class="flex items-center justify-between text-xs font-medium px-1">
+<span>Projected Exhaustion</span>
+<span class="text-red-500">Nov 12, 2023</span>
+</div>
+<div class="relative h-2 w-full rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
+<div class="absolute left-0 top-0 h-full w-[80%] bg-gradient-to-r from-primary to-primary/60 rounded-full"></div>
+</div>
+<p class="text-[11px] text-slate-500 dark:text-slate-400 leading-relaxed italic">
+                        "Your current burn rate has increased by 15% compared to the previous week. Recommendation: Reorder within the next 48 hours to avoid stockout."
+                    </p>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 right-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-t border-slate-200 dark:border-slate-800">
+<div class="flex max-w-md mx-auto px-6 py-3 justify-between items-center">
+<a class="flex flex-col items-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="text-[10px] font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined">lightbulb</span>
+<span class="text-[10px] font-medium">Insights</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">inventory</span>
+<span class="text-[10px] font-medium">Inventory</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">account_circle</span>
+<span class="text-[10px] font-medium">Profile</span>
+</a>
+</div>
+</nav>
+</body></html>
